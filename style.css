@@ -4,7 +4,7 @@
 }
 /* Nav controls */
 nav {
-    margin: 30px;
+    margin: 10px 5px;
     padding: 15px;
     font-size: 17px;
     text-align: center;
@@ -29,6 +29,10 @@ header{
 /* Main styling*/
 main {
     
+}
+aside {
+    float: left;
+    padding-right: 20px;
 }
 p {
     font-family: Arial;
