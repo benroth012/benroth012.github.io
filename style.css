@@ -1,3 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Nav controls */
+nav {
+    margin: 30px;
+    padding: 15px;
+    font-size: 17px;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    padding: 14px 30px;
+    background-color: gainsboro;
+    color: black;
+}
+nav a {
+    text-decoration: none;
+}
+/* Header styling */
+header{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    background-color: dodgerblue;
+    color: white;
+}
+/* Main styling*/
+main {
+    
+}
 p {
-      font-family: Arial;
+    font-family: Arial;
   }
+/* Footer Styling*/
+footer{
+    text-align: center;
+}
