@@ -19,12 +19,24 @@ nav a {
     text-decoration: none;
 }
 /* Header styling */
-header{
+.header-image{
+    background-image: url(https://pbs.twimg.com/media/D0Mxg8ZWoAEgztx.jpg);
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: cover;
+    position: relative;
+    background-clip: border-box;
+    height: 700px;
+}
+.header-text{
     text-align: center;
-    font-size: 30px;
-    font-family: Arial;
-    background-color: dodgerblue;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    padding-top: 5%;
+}
+header{
+    
 }
 /* Main styling*/
 main {
