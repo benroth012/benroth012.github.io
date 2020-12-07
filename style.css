@@ -18,44 +18,55 @@ nav li {
 nav a {
     text-decoration: none;
 }
+body {
+    background-color: #374785;
+    font-family: Arial;
+}
 /* Header styling */
 .header-image{
-    background-image: url(https://pbs.twimg.com/media/D0Mxg8ZWoAEgztx.jpg);
-    background-repeat: no-repeat;
-    /*background-position: center;*/
-    background-size: cover;
-    position: relative;
+    background: url(https://pbs.twimg.com/media/D0Mxg8ZWoAEgztx.jpg) no-repeat;
+    position: static;
     background-clip: border-box;
-    height: 700px;
+    background-size: cover, contain;
+    flex-grow: 2;
 }
 .header-text{
     text-align: center;
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: #F8E9A1;
     padding-top: 5%;
+    letter-spacing: 1px;
 }
 header{
-    
+    position: center;
+    width: 100%;
 }
 /* Main styling*/
 main {
-    
+   
 }
 .About-me{
-
+    padding-top: 30px; 
 }
-.Experiences{
-    padding-top: 30px;
-
+.Experiences{  
+    padding-top: 30px; 
 }
 .Strengths{
-
+    padding-top: 30px; 
 }
-
+h1{
+    color: #F76C6C;
+    padding-top: 10px; 
+    font-size: 50px;
+}
+h4, h5 {
+    color: #A8D0E6;
+}
 p {
-    font-family: Arial;
+    color: white;
   }
+
 /* Footer Styling*/
 footer{
     text-align: center;
