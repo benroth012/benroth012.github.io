@@ -35,33 +35,47 @@ body {
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #F8E9A1;
-    padding-top: 5%;
     letter-spacing: 1px;
 }
 header{
     position: center;
     width: 100%;
+    background-color: #24305E;
 }
 /* Main styling*/
 main {
    
 }
-.About-me{
+#About-me{
     padding-top: 30px; 
 }
-.Experiences{  
+#Experiences{  
     padding-top: 30px; 
 }
-.Strengths{
+#Strengths{
     padding-top: 30px; 
+}
+article {
+    padding-top: 2%;
 }
 h1{
     color: #F76C6C;
     padding-top: 10px; 
     font-size: 50px;
+    text-align: center;
 }
 h4, h5 {
     color: #A8D0E6;
+}
+h4 {
+    font-size: 25px;
+}
+h5{
+    font-size: 20px;
+    text-align: center;
+}
+h6{
+    font-size: 15px;
 }
 p {
     color: white;
