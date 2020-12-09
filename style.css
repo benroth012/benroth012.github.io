@@ -4,19 +4,20 @@
 }
 /* Nav controls */
 nav {
-    margin: 10px 5px;
-    padding: 15px;
-    font-size: 17px;
     text-align: center;
 }
-nav li {
+li {
     display: inline;
-    padding: 14px 30px;
-    background-color: gainsboro;
-    color: black;
 }
-nav a {
+a {
     text-decoration: none;
+}
+button {
+    width: 24%;
+    height: auto;
+    background-color: #F76C6C;
+    color: white;
+    font-size: 25px;
 }
 body {
     background-color: #374785;
@@ -58,6 +59,13 @@ main {
 article {
     padding-top: 2%;
 }
+table {
+    width: 100%;
+    text-align: left;
+}
+td{
+    color: #F76C6C;
+}
 h1{
     color: #F76C6C;
     padding-top: 10px; 
@@ -68,14 +76,15 @@ h4, h5 {
     color: #A8D0E6;
 }
 h4 {
-    font-size: 25px;
+    font-size: 35px;
 }
 h5{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 h6{
-    font-size: 15px;
+    font-size: 25px;
+    color: #F8E9A1;
 }
 p {
     color: white;
