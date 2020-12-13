@@ -48,16 +48,16 @@ main {
    
 }
 #About-me{
-    padding-top: 30px; 
+    padding-top: 20px; 
 }
 #Experiences{  
-    padding-top: 30px; 
+    padding-top: 20px; 
 }
 #Strengths{
-    padding-top: 30px; 
+    padding-top: 10px; 
 }
 article {
-    padding-top: 2%;
+    padding-top: 5px;
 }
 table {
     width: 100%;
