@@ -8,6 +8,7 @@ nav {
 }
 li {
     display: inline;
+    vertical-align: middle;
 }
 a {
     text-decoration: none;
@@ -80,7 +81,7 @@ h4 {
 }
 h5{
     font-size: 30px;
-    text-align: center;
+    text-align: left;
 }
 h6{
     font-size: 25px;
@@ -91,6 +92,11 @@ p {
   }
 
 /* Footer Styling*/
-footer{
+footer {
     text-align: center;
+}
+footer h5{
+    text-align: center;
+    color: #F76C6C;
+    font-size: 20px;
 }
